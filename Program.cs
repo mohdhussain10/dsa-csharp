@@ -15,3 +15,7 @@ using DataStructureAlgo.WindowSlidingAlgo;
 var groupOfAnagrams = GroupAnagrans.GetGroupOfAnagrams(new List<string> { "eat", "tea", "ant", "tan", "ate" });
 
 groupOfAnagrams.ForEach(g => Console.WriteLine($"[{string.Join(", ", g)}]"));
+
+var groupOfAnagrams = GroupAnagrans.GetGroupOfAnagramUsingFreqApproach(new List<string> { "eat", "tea", "ant", "tan", "ate" });
+
+groupOfAnagrams.ForEach(g => Console.WriteLine($"[{string.Join(", ", g)}]"));
